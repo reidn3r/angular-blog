@@ -9,7 +9,7 @@ import { SmallCardComponent } from '../../components/small-card/small-card.compo
   standalone: true,
   imports: [ BigCardComponent, MenuBarComponent, MenuTitleComponent, SmallCardComponent ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css', './home.responsive.component.css']
 })
 export class HomeComponent {
 

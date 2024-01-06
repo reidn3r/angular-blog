@@ -1,0 +1,5 @@
+@media screen and (max-width:830px) {
+    .container__big-card{
+        border-bottom: 1px solid #fdfdfd08;
+    }
+}
