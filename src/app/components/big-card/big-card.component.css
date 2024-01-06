@@ -1,0 +1,31 @@
+a{
+    text-decoration: none !important;
+    color: #FDFDFD;
+}
+
+.container__big-card{
+    /* width: 30vw; */
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1vw;
+}
+
+.big-card__image, .big-card__image > img{
+    width: 50vw;
+    max-height: 60vh;
+    object-fit: cover;
+}
+
+.big-card__title > h2{
+    font-size: 23px;
+    margin: 8px 0;
+    font-weight: 750;
+}
+
+.big-card__description > p{
+    color: #444;
+    margin: 8px 0;
+    font-weight: 500;
+}

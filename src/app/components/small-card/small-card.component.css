@@ -1,0 +1,22 @@
+a{
+    color: #fdfdfd;
+    text-decoration: none !important;
+}
+
+.container__small-card{
+    display: flex;
+    margin: 0px 5vw;
+    border-bottom: 0.3px solid #fdfdfd30;
+    margin-bottom: 5vh;
+}
+
+.small-card__image{
+    max-width: 30vw;
+    margin-bottom: 2vh;
+}
+
+
+.small-card__title{
+    margin: 5vh 0 2vh 13px;
+    text-align: justify;
+}

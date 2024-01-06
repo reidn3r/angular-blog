@@ -1,0 +1,22 @@
+li{
+    list-style: none;
+}
+
+.container__menu-bar{
+    display: flex;
+}
+
+.profile-image__container > img{
+    width: 3vw;
+    border-radius: 50%;
+    margin: 1vw 2vw;
+}
+
+.container__menu-bar > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container__menu-bar > ul > li{
+    margin: 1vw 3vw;
+}

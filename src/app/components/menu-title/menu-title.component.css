@@ -1,0 +1,18 @@
+.container__menu-title{
+    color: #fff;
+    
+    border-top: 0.3px solid #fdfdfd30;
+    border-bottom: 0.3px solid #fdfdfd30;
+
+    margin-bottom: 20px;
+}
+.container__menu-title > h1{
+    margin: 15px auto;
+    
+    font-size: 8vw;
+    font-family: sans-serif;
+    font-weight: 900;
+
+    display: flex;
+    justify-content: center;
+}
