@@ -10,13 +10,12 @@ a{
     margin-bottom: 5vh;
 }
 
-.small-card__image{
-    max-width: 30vw;
+.small-card__image > img{
+    width: 20vw;
     margin-bottom: 2vh;
 }
 
-
 .small-card__title{
-    margin: 5vh 0 2vh 13px;
+    margin: 0px 0px 2vh 13px;
     text-align: justify;
 }

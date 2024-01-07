@@ -10,8 +10,7 @@
     </div>
 
     <div class="articles__other">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card *ngFor="let n of smallCardNews" [imageUrl]="n.imageUrl" [title]="n.title" [url]="n.url">
+        </app-small-card>
     </div>
 </div>
